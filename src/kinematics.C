@@ -1,4 +1,7 @@
-#include "kinematics.h"
+#include <vector>
+#include <cmath>
+#include "TROOT.h"
+#pragma once
 double Pfunc(double Px, double Py, double Pz)
 {
     return sqrt(Px*Px + Py*Py + Pz*Pz);
